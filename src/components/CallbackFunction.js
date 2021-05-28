@@ -5,27 +5,27 @@ import React from "react";
 
 const CallbackFunction = () => {
   //Every thing is okay
-  //   const funA = () => {
-  //     console.log(`Welcome FunA`);
-  //   };
-  //   const funB = () => {
-  //     console.log(`Welcome FunB`);
-  //   };
-  //   funA();
-  //   funB();
+  const funA = () => {
+    console.log(`Welcome FunA`);
+  };
+  const funB = () => {
+    console.log(`Welcome FunB`);
+  };
+  funA();
+  funB();
   //funA() will showing 1st then funB()
 
   //after using setTimeOut anonymous function
-  //   const funA = () => {
-  //     setTimeout(function () {
-  //       console.log(`Welcome FunA`);
-  //     }, 3000);
-  //   };
-  //   const funB = () => {
-  //     console.log(`Welcome FunB`);
-  //   };
-  //   funA();
-  //   funB();
+  const funA = () => {
+    setTimeout(function () {
+      console.log(`Welcome FunA`);
+    }, 3000);
+  };
+  const funB = () => {
+    console.log(`Welcome FunB`);
+  };
+  funA();
+  funB();
   //in that situation funB() will call 1st and then funB() will call for that reason we need to use call back function
 
   //call back function
